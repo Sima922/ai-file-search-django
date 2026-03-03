@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .message {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .error-message { color: red; background-color: #fdd; }
+        .success-message { color: green; background-color: #dfd; }
+        .warning-message { color: orange; background-color: #ffd; }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+        input[type="file"] {
+            display: block;
+            margin: 0 auto 15px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .loading-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            z-index: 1000;
+        }
+        .loading-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .spinner {
+            width: 64px;
+            height: 64px;
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #007bff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        .progress-bar {
+            width: 300px;
+            height: 20px;
+            background-color: #f3f3f3;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px auto;
+        }
+        .progress {
+            width: 0%;
+            height: 100%;
+            background-color: #007bff;
+            transition: width 0.3s ease;
+        }
+        .loading-tips {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .file-info {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Your Images</h1>
+        
+        {% if messages %}
+            {% for message in messages %}
+                <p class="message 
+                    {% if message.tags == 'error' %}error-message
+                    {% elif message.tags == 'success' %}success-message
+                    {% elif message.tags == 'warning' %}warning-message
+                    {% endif %}">
+                    {{ message }}
+                </p>
+            {% endfor %}
+        {% endif %}
+
+        <form method="post" enctype="multipart/form-data" id="uploadForm">
+            {% csrf_token %}
+            <label for="files">Select multiple images or documents:</label>
+            <input type="file" name="files" id="files" multiple required>
+            <div class="file-info" id="fileInfo"></div>
+            <button type="submit">Upload Files</button>
+        </form>
+    </div>
+
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <h2>Processing Your Files</h2>
+            <div class="progress-bar">
+                <div class="progress" id="progressBar"></div>
+            </div>
+            <p id="progressText">Initializing upload...</p>
+            <div class="loading-tips">
+                <h3>While you wait...</h3>
+                <p id="loadingTip"></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const tips = [
+    "Images (JPG, PNG, GIF) are processed quickly - smaller files upload faster. Use compressed formats to maintain quality and speed.",
+    "Compressed images under 2MB upload faster and ensure smoother processing. Consider resizing large images before uploading.",
+    "Standard PDFs with searchable text process efficiently. For better results, ensure your PDFs are not scanned images.",
+    "Word documents (.docx) and PowerPoint files (.pptx) process effectively. Keep formatting simple for quicker handling.",
+    "Scanned PDFs take longer to process due to OCR. Ensure high scan quality for better accuracy during processing.",
+    "Large presentations with many images may take longer. Reducing image sizes or splitting into smaller files can help.",
+    "Documents with complex layouts or tables require additional processing. Simplifying layouts can improve performance.",
+    "Splitting very large files (>50MB) into smaller sections makes uploads and processing faster and more efficient.",
+    "For optimal upload speeds, ensure a stable internet connection and avoid network congestion.",
+    "Documents with many pages may take longer to process. Consider splitting multi-page files into smaller parts if needed."
+];
+
+
+        const fileInput = document.getElementById('files');
+        const fileInfo = document.getElementById('fileInfo');
+        const form = document.getElementById('uploadForm');
+        const loadingOverlay = document.getElementById('loadingOverlay');
+        const progressBar = document.getElementById('progressBar');
+        const progressText = document.getElementById('progressText');
+        const loadingTip = document.getElementById('loadingTip');
+
+        fileInput.addEventListener('change', function() {
+            const files = this.files;
+            const totalSize = Array.from(files).reduce((acc, file) => acc + file.size, 0);
+            const totalSizeMB = (totalSize / (1024 * 1024)).toFixed(2);
+            fileInfo.textContent = `Selected ${files.length} file(s) - Total size: ${totalSizeMB} MB`;
+        });
+
+        form.addEventListener('submit', function(e) {
+            loadingOverlay.style.display = 'block';
+            updateProgress(0);
+            
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += Math.random() * 15;
+                if (progress > 90) {
+                    clearInterval(interval);
+                    progress = 90;
+                }
+                updateProgress(progress);
+            }, 1000);
+
+            rotateTips();
+        });
+
+        function updateProgress(percent) {
+            progressBar.style.width = `${percent}%`;
+            progressText.textContent = `Processing... ${Math.round(percent)}%`;
+        }
+
+        function rotateTips() {
+            let tipIndex = 0;
+            loadingTip.textContent = tips[0];
+            
+            setInterval(() => {
+                tipIndex = (tipIndex + 1) % tips.length;
+                loadingTip.textContent = tips[tipIndex];
+            }, 10000);
+        }
+    </script>
+</body>
+</html> 

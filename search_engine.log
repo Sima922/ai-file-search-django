@@ -1,0 +1,1165 @@
+2024-12-04 16:26:17,222 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-04 16:26:41,317 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-04 16:26:48,951 - root - INFO - Loaded ViT-B-32 model config.
+2024-12-04 16:26:55,498 - root - INFO - Loading pretrained ViT-B-32 weights (laion2b_s34b_b79k).
+2024-12-04 16:26:57,982 - image_search.utils.search_engine - INFO - EnhancedSearchEngine initialized successfully.
+2024-12-04 16:27:16,049 - image_search.utils.search_engine - INFO - Image 8e323889-d867-4548-ac4f-e6b7ce121fe5 added successfully.
+2024-12-04 16:27:16,818 - image_search.utils.search_engine - INFO - Image 78bf9eba-0ddb-4e99-aed2-2cb5e98d874b added successfully.
+2024-12-04 16:27:21,666 - image_search - ERROR - Image result processing error: Field 'id' expected a number but got 'image_-1995561049587564700'.
+2024-12-04 16:33:33,964 - django.utils.autoreload - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\utils\search_engine.py changed, reloading.
+2024-12-04 16:33:48,782 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-04 16:34:14,683 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-04 16:34:21,386 - root - INFO - Loaded ViT-B-32 model config.
+2024-12-04 16:34:27,656 - root - INFO - Loading pretrained ViT-B-32 weights (laion2b_s34b_b79k).
+2024-12-04 16:34:30,276 - image_search.utils.search_engine - INFO - EnhancedSearchEngine initialized successfully.
+2024-12-04 16:34:47,444 - image_search.utils.search_engine - INFO - Image 584798090 added successfully.
+2024-12-04 16:34:49,530 - image_search.utils.search_engine - INFO - Image 561323707 added successfully.
+2024-12-04 16:34:53,591 - image_search - ERROR - Image result processing error: Field 'id' expected a number but got 'image_-1995561049587564700'.
+2024-12-04 16:44:39,911 - django.utils.autoreload - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\utils\search_engine.py changed, reloading.
+2024-12-04 16:44:59,326 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-04 16:45:25,135 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-04 16:45:36,279 - root - INFO - Loaded ViT-B-32 model config.
+2024-12-04 16:45:43,393 - root - INFO - Loading pretrained ViT-B-32 weights (laion2b_s34b_b79k).
+2024-12-04 16:45:45,995 - image_search.utils.search_engine - INFO - EnhancedSearchEngine initialized successfully.
+2024-12-04 16:45:46,013 - root - INFO - Loaded ViT-B-32 model config.
+2024-12-04 16:45:51,633 - root - INFO - Loading pretrained ViT-B-32 weights (laion2b_s34b_b79k).
+2024-12-04 16:45:57,301 - image_search.utils.search_engine - INFO - EnhancedSearchEngine initialized successfully.
+2024-12-04 16:46:16,189 - image_search.utils.search_engine - INFO - Image 1388591087 added successfully.
+2024-12-04 16:46:31,188 - pikepdf._core - INFO - pikepdf C++ to Python logger bridge initialized
+2024-12-04 16:46:33,745 - image_search.utils.search_engine - ERROR - Error processing document: _path_exists: path should be string, bytes, os.PathLike or integer, not dict
+2024-12-04 16:46:41,565 - image_search - ERROR - Image result processing error: StudentImage matching query does not exist.
+2024-12-04 16:46:41,565 - image_search - ERROR - Image result processing error: Field 'id' expected a number but got 'aa60d09a-309b-42ba-b4ae-73e75d0d5749'.
+2024-12-04 16:50:24,862 - django.utils.autoreload - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\utils\search_engine.py changed, reloading.
+2024-12-04 16:50:43,139 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-04 16:51:13,376 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-04 16:51:23,487 - root - INFO - Loaded ViT-B-32 model config.
+2024-12-04 16:51:31,083 - root - INFO - Loading pretrained ViT-B-32 weights (laion2b_s34b_b79k).
+2024-12-04 16:51:33,536 - image_search.utils.search_engine - INFO - EnhancedSearchEngine initialized successfully.
+2024-12-04 16:51:33,568 - root - INFO - Loaded ViT-B-32 model config.
+2024-12-04 16:51:39,358 - root - INFO - Loading pretrained ViT-B-32 weights (laion2b_s34b_b79k).
+2024-12-04 16:51:41,783 - image_search.utils.search_engine - INFO - EnhancedSearchEngine initialized successfully.
+2024-12-04 16:52:18,245 - chromadb.segment.impl.metadata.sqlite - WARNING - Insert of existing embedding ID: 1388591087
+2024-12-04 16:52:18,260 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Add of existing embedding ID: 1388591087
+2024-12-04 16:52:18,276 - image_search.utils.search_engine - INFO - Image 1388591087 added successfully.
+2024-12-04 16:52:28,321 - pikepdf._core - INFO - pikepdf C++ to Python logger bridge initialized
+2024-12-04 16:52:30,189 - image_search.utils.search_engine - ERROR - Invalid document dictionary: missing 'file' key
+2024-12-04 16:52:35,887 - image_search.utils.search_engine - ERROR - Search error: 'EnhancedSearchEngine' object has no attribute 'document_processor'
+2024-12-04 16:53:17,658 - django.utils.autoreload - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\utils\search_engine.py changed, reloading.
+2024-12-13 16:27:32,958 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-13 16:27:50,927 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\student_image_search\settings.py changed, reloading.
+2024-12-13 16:28:09,171 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-13 16:28:27,132 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\utils\search_engine.py changed, reloading.
+2024-12-13 16:29:07,016 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\utils\document_processor.py changed, reloading.
+2024-12-13 16:34:53,204 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\admin.py changed, reloading.
+2024-12-13 16:44:24,716 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-13 16:46:17,609 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\student_image_search\urls.py changed, reloading.
+2024-12-13 16:57:37,170 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\student_image_search\settings.py changed, reloading.
+2024-12-13 16:58:04,114 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-13 17:04:12,232 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-13 17:05:15,143 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-13 17:06:08,126 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-13 17:10:03,151 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 61, in _view_wrapper
+    return _redirect_to_login(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 25, in _redirect_to_login
+    resolved_login_url = resolve_url(login_url or settings.LOGIN_URL)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+2024-12-13 17:10:03,198 - ERROR - "GET / HTTP/1.1" 500 87914
+2024-12-13 17:11:56,651 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\student_image_search\urls.py changed, reloading.
+2024-12-13 17:13:37,810 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\urls.py changed, reloading.
+2024-12-13 17:13:52,882 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 61, in _view_wrapper
+    return _redirect_to_login(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 25, in _redirect_to_login
+    resolved_login_url = resolve_url(login_url or settings.LOGIN_URL)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+2024-12-13 17:13:52,914 - ERROR - "GET / HTTP/1.1" 500 87914
+2024-12-13 17:17:22,795 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-13 17:17:36,423 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 109, in upload_files
+    return render(request, 'upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: upload.html
+2024-12-13 17:17:36,453 - ERROR - "GET / HTTP/1.1" 500 82985
+2024-12-13 17:19:24,085 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-13 17:19:44,378 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 109, in upload_files
+    return render(request, 'upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: upload.html
+2024-12-13 17:19:44,508 - ERROR - "GET / HTTP/1.1" 500 82985
+2024-12-13 17:21:13,320 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-13 17:21:28,060 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 109, in upload_files
+    return render(request, 'upload_image.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: upload_image.html
+2024-12-13 17:21:28,093 - ERROR - "GET / HTTP/1.1" 500 83105
+2024-12-13 17:29:50,262 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-13 17:30:16,191 - INFO - "GET / HTTP/1.1" 200 2318
+2024-12-13 17:34:42,785 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 93, in upload_files
+    student_file = StudentFile.objects.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001BD42400380>>": "StudentFile.user" must be a "User" instance.
+2024-12-13 17:34:42,817 - ERROR - "POST / HTTP/1.1" 500 91300
+2024-12-13 17:54:51,754 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-13 17:55:25,270 - INFO - "GET / HTTP/1.1" 200 2318
+2024-12-13 17:55:35,022 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: image_search_studentfile
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 97, in upload_files
+    student_file = StudentFile.objects.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: image_search_studentfile
+2024-12-13 17:55:35,093 - ERROR - "POST / HTTP/1.1" 500 168099
+2024-12-13 17:59:44,362 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-13 18:01:58,417 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-13 18:02:13,656 - INFO - "GET / HTTP/1.1" 200 2318
+2024-12-13 18:02:22,442 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: image_search_studentfile
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 97, in upload_files
+    student_file = StudentFile.objects.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: image_search_studentfile
+2024-12-13 18:02:22,491 - ERROR - "POST / HTTP/1.1" 500 168099
+2024-12-13 18:09:22,681 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-13 18:09:37,612 - INFO - "GET / HTTP/1.1" 200 2318
+2024-12-13 18:09:46,632 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: image_search_studentfile
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 97, in upload_files
+    student_file = StudentFile.objects.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: image_search_studentfile
+2024-12-13 18:09:46,683 - ERROR - "POST / HTTP/1.1" 500 168099
+2024-12-13 18:12:42,225 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: image_search_studentfile
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 97, in upload_files
+    student_file = StudentFile.objects.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: image_search_studentfile
+2024-12-13 18:12:42,263 - ERROR - "POST / HTTP/1.1" 500 168099
+2024-12-16 12:57:12,160 - INFO - "GET / HTTP/1.1" 200 2318
+2024-12-16 12:57:16,277 - WARNING - Not Found: /favicon.ico
+2024-12-16 12:57:16,293 - WARNING - "GET /favicon.ico HTTP/1.1" 404 2703
+2024-12-16 12:57:28,163 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: image_search_studentfile
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 97, in upload_files
+    student_file = StudentFile.objects.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: image_search_studentfile
+2024-12-16 12:57:28,262 - ERROR - "POST / HTTP/1.1" 500 168124
+2024-12-16 13:14:39,679 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-16 13:15:31,681 - INFO - "GET / HTTP/1.1" 200 2318
+2024-12-16 13:15:43,753 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: image_search_studentfile
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 91, in upload_files
+    StudentFile.objects.create(
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: image_search_studentfile
+2024-12-16 13:15:43,832 - ERROR - "POST / HTTP/1.1" 500 167999
+2024-12-16 13:22:42,488 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-16 13:24:26,940 - INFO - "GET / HTTP/1.1" 200 2318
+2024-12-16 13:25:44,233 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-16 13:27:20,466 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\student_image_search\settings.py changed, reloading.
+2024-12-16 13:30:32,499 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: image_search_studentfile
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 91, in upload_files
+    StudentFile.objects.create(
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: image_search_studentfile
+2024-12-16 13:30:32,585 - ERROR - "POST / HTTP/1.1" 500 167999
+2024-12-16 13:41:26,348 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\migrations\0001_initial.py changed, reloading.
+2024-12-16 13:42:26,970 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-16 13:42:45,331 - INFO - "GET / HTTP/1.1" 200 2318
+2024-12-16 13:42:54,368 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: image_search_studentfile
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 91, in upload_files
+    StudentFile.objects.create(
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: image_search_studentfile
+2024-12-16 13:42:54,462 - ERROR - "POST / HTTP/1.1" 500 167999
+2024-12-16 13:55:13,657 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-16 13:57:02,571 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-16 13:57:28,417 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-16 14:01:13,388 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-16 14:03:59,035 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-16 14:04:14,684 - INFO - "GET / HTTP/1.1" 200 2318
+2024-12-16 14:04:27,147 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x00000150320C04A0>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 14:04:27,426 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 115, in upload_files
+    return redirect('search_files')
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search_files' not found. 'search_files' is not a valid view function or pattern name.
+2024-12-16 14:04:27,456 - ERROR - "POST / HTTP/1.1" 500 88948
+2024-12-16 14:04:40,426 - INFO - "GET / HTTP/1.1" 200 2542
+2024-12-16 14:05:03,525 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000015032337020>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 14:05:03,646 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 115, in upload_files
+    return redirect('search_files')
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search_files' not found. 'search_files' is not a valid view function or pattern name.
+2024-12-16 14:05:03,667 - ERROR - "POST / HTTP/1.1" 500 88695
+2024-12-16 14:16:35,575 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\student_image_search\urls.py changed, reloading.
+2024-12-16 14:17:15,521 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-16 14:17:30,155 - INFO - "GET / HTTP/1.1" 200 2525
+2024-12-16 14:17:39,113 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001DBFD8ED250>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 14:17:39,149 - INFO - "POST / HTTP/1.1" 302 0
+2024-12-16 14:17:39,918 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 129, in search_files
+    return render(request, 'image_search/search_images.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_files' not found. 'upload_files' is not a valid view function or pattern name.
+2024-12-16 14:17:39,970 - ERROR - "GET /search/ HTTP/1.1" 500 119290
+2024-12-16 14:56:58,815 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\urls.py changed, reloading.
+2024-12-16 14:57:15,429 - INFO - "GET / HTTP/1.1" 200 2525
+2024-12-16 14:57:24,783 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000002045BEDB6B0>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 14:57:24,844 - INFO - "POST / HTTP/1.1" 302 0
+2024-12-16 14:57:25,143 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 129, in search_files
+    return render(request, 'image_search/search_images.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_files' not found. 'upload_files' is not a valid view function or pattern name.
+2024-12-16 14:57:25,200 - ERROR - "GET /search/ HTTP/1.1" 500 119290
+2024-12-16 14:57:34,520 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\urls.py changed, reloading.
+2024-12-16 14:58:20,895 - INFO - "GET / HTTP/1.1" 200 2525
+2024-12-16 14:58:28,818 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001CE87B18440>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 14:58:28,844 - INFO - "POST / HTTP/1.1" 302 0
+2024-12-16 14:58:29,042 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 129, in search_files
+    return render(request, 'image_search/search_images.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_files' not found. 'upload_files' is not a valid view function or pattern name.
+2024-12-16 14:58:29,083 - ERROR - "GET /search/ HTTP/1.1" 500 119290
+2024-12-16 15:00:08,161 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-16 15:00:25,080 - INFO - "GET / HTTP/1.1" 200 2525
+2024-12-16 15:00:32,593 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000020BA6803590>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 15:00:32,635 - INFO - "POST / HTTP/1.1" 302 0
+2024-12-16 15:00:32,873 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 129, in search_files
+    return render(request, 'image_search/search_images.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_files' not found. 'upload_files' is not a valid view function or pattern name.
+2024-12-16 15:00:32,935 - ERROR - "GET /search/ HTTP/1.1" 500 119290
+2024-12-16 15:01:16,755 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-16 15:04:44,364 - INFO - "GET / HTTP/1.1" 200 2525
+2024-12-16 15:04:53,462 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000002DD165E9D60>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 15:04:53,693 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000002DD165E9D60>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 15:04:53,729 - INFO - "POST / HTTP/1.1" 302 0
+2024-12-16 15:04:53,923 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 129, in search_files
+    return render(request, 'image_search/search_images.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_files' not found. 'upload_files' is not a valid view function or pattern name.
+2024-12-16 15:04:53,969 - ERROR - "GET /search/ HTTP/1.1" 500 119309
+2024-12-16 15:10:23,306 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\urls.py changed, reloading.
+2024-12-16 15:10:37,935 - INFO - "GET / HTTP/1.1" 200 2545
+2024-12-16 15:10:46,553 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000002099DF1AB40>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 15:10:46,807 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000002099DF1AB40>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 15:10:46,832 - INFO - "POST / HTTP/1.1" 302 0
+2024-12-16 15:10:47,024 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 129, in search_files
+    return render(request, 'image_search/search_images.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_files' not found. 'upload_files' is not a valid view function or pattern name.
+2024-12-16 15:10:47,059 - ERROR - "GET /search/ HTTP/1.1" 500 119309
+2024-12-16 15:14:40,370 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\urls.py changed, reloading.
+2024-12-16 15:14:54,321 - INFO - "GET / HTTP/1.1" 200 2545
+2024-12-16 15:15:03,440 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001FA29693F80>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 15:15:03,669 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001FA29693F80>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 15:15:03,691 - INFO - "POST / HTTP/1.1" 302 0
+2024-12-16 15:15:03,852 - INFO - "GET /search/ HTTP/1.1" 200 4374
+2024-12-16 15:15:48,894 - INFO - "GET /search/?query=Data+Memory HTTP/1.1" 200 4217
+2024-12-16 15:18:30,017 - INFO - "GET / HTTP/1.1" 200 2318
+2024-12-16 15:18:41,462 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001FA297E31D0>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 15:18:41,467 - INFO - "POST / HTTP/1.1" 302 0
+2024-12-16 15:18:41,476 - INFO - "GET /search/ HTTP/1.1" 200 4371
+2024-12-16 15:19:52,578 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-16 15:20:06,949 - INFO - "GET / HTTP/1.1" 200 2318
+2024-12-16 15:20:15,782 - INFO - "POST / HTTP/1.1" 302 0
+2024-12-16 15:20:15,925 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 128, in search_files
+    'download_url': reverse('image_search:download_file', args=[str(file.id)]),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'download_file' with arguments '('89cf8eea-fc55-4a1d-9738-78c678f2860a',)' not found. 1 pattern(s) tried: ['download/(?P<file_id>[0-9]+)/\\Z']
+2024-12-16 15:20:15,961 - ERROR - "GET /search/ HTTP/1.1" 500 83834
+2024-12-16 15:20:40,565 - INFO - "GET / HTTP/1.1" 200 2547
+2024-12-16 15:21:19,901 - INFO - "POST / HTTP/1.1" 302 0
+2024-12-16 15:21:20,069 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 128, in search_files
+    'download_url': reverse('image_search:download_file', args=[str(file.id)]),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'download_file' with arguments '('f1b9569b-a84b-4580-9708-f9e56c14cc54',)' not found. 1 pattern(s) tried: ['download/(?P<file_id>[0-9]+)/\\Z']
+2024-12-16 15:21:20,082 - ERROR - "GET /search/ HTTP/1.1" 500 83904
+2024-12-16 15:30:17,330 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py changed, reloading.
+2024-12-16 15:30:33,429 - INFO - "GET / HTTP/1.1" 200 2547
+2024-12-16 15:30:41,399 - ERROR - File processing error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001BBE170C890>>": "StudentFile.user" must be a "User" instance.
+2024-12-16 15:30:41,426 - INFO - "POST / HTTP/1.1" 302 0
+2024-12-16 15:30:41,586 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\views.py", line 130, in search_files
+    'download_url': reverse('image_search:download_file', args=[str(file.id)]),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\T-B-SMASH\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'download_file' with arguments '('f1b9569b-a84b-4580-9708-f9e56c14cc54',)' not found. 1 pattern(s) tried: ['download/(?P<file_id>[0-9]+)/\\Z']
+2024-12-16 15:30:41,609 - ERROR - "GET /search/ HTTP/1.1" 500 83897
+2024-12-16 15:34:29,831 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\models.py changed, reloading.
+2024-12-16 15:43:17,355 - INFO - C:\Users\T-B-SMASH\Desktop\Biust_Search\student_image_search\image_search\urls.py changed, reloading.

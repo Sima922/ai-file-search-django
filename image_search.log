@@ -1,0 +1,42 @@
+Error generating embedding: Failed to download file (open_clip_pytorch_model.bin) for timm/vit_base_patch32_clip_224.openai. Last error: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /timm/vit_base_patch32_clip_224.openai/resolve/main/open_clip_pytorch_model.bin (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')))"), '(Request ID: 139a9d3d-9719-4afc-a9b9-bd2b23745774)')
+Unexpected error: table image_search_studentimage has no column named embedding
+Unexpected error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000002D578C7D160>>": "StudentImage.uploader" must be a "User" instance.
+Unexpected error: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000002D5789ACF80>>": "StudentImage.uploader" must be a "User" instance.
+
+
+from image_search.utils.search_engine import search_engine
+
+file_path = 'C:\\Users\\T-B-SMASH\\Desktop\\Biust_Search\\student_image_search\\media\\temp\\2022 cpen exam.pdf'
+document_id = 'unique_doc_id_674'
+
+
+success = search_engine.add_document_chunks(file_path, document_id)
+print("Document added successfully:", success)
+
+
+# Import the necessary classes
+from image_search.search_engine import search_engine
+from image_search.document_processor import DocumentProcessor
+
+# Replace with the actual path to your uploaded document
+file_path = 'C:\\Users\\T-B-SMASH\\Desktop\\Biust_Search\\student_image_search\\media\\temp\\2022 cpen exam.pdf'  # or .pdf, .pptx
+
+# Determine extraction method based on file extension
+file_ext = os.path.splitext(file_path)[1].lower()
+
+# Create document processor
+doc_processor = search_engine.document_processor
+
+# Test extraction based on file type
+if file_ext == '.docx':
+    extracted_chunks = doc_processor.extract_text_from_docx(file_path)
+elif file_ext == '.pdf':
+    extracted_chunks = doc_processor.extract_text_from_pdf(file_path)
+elif file_ext in ['.ppt', '.pptx']:
+    extracted_chunks = doc_processor.extract_text_from_pptx(file_path)
+
+# Print extracted chunks
+print("Number of initial chunks:", len(extracted_chunks))
+for chunk in extracted_chunks[:3]:  # Print first 3 chunks
+    print("\nChunk:")
+    print(chunk)

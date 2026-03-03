@@ -1,0 +1,4 @@
+2024-11-09 09:40:28,196 - ERROR - Unexpected error: Collection.add() got an unexpected keyword argument 'metadata'
+2024-11-09 10:02:08,940 - ERROR - Error during search: Embedding dimension 384 does not match collection dimensionality 512
+2024-11-09 12:05:48,837 - ERROR - Unexpected error: Collection.add() got an unexpected keyword argument 'metadata'
+2024-11-09 12:10:34,679 - ERROR - Error during search: Embedding dimension 384 does not match collection dimensionality 512

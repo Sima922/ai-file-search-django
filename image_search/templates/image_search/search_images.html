@@ -1,0 +1,242 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Uploaded Files</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .navigation {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .nav-link {
+            color: #007bff;
+            text-decoration: none;
+            padding: 10px;
+            border: 1px solid #007bff;
+            border-radius: 4px;
+        }
+        h1, h2 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .messages {
+            margin-bottom: 20px;
+        }
+        .message {
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .message.success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .message.error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .message.warning {
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+        }
+        .message.info {
+            background-color: #cce5ff;
+            color: #004085;
+            border: 1px solid #b8daff;
+        }
+        .search-form {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        .search-input {
+            width: 70%;
+            padding: 12px 15px;
+            border: 2px solid #ddd;
+            border-right: none;
+            border-radius: 4px 0 0 4px;
+        }
+        .search-button {
+            padding: 12px 25px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+        .search-results {
+            margin-top: 20px;
+        }
+        .result {
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .filename {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .content-wrapper {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 15px;
+        }
+        .result-image {
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
+            margin-right: 20px;
+            border-radius: 4px;
+            background-color: #f8f9fa;
+        }
+        .result-details {
+            flex-grow: 1;
+        }
+        .download-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        .download-link:hover {
+            background-color: #0056b3;
+        }
+        .metadata {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+        .metadata-item {
+            margin-bottom: 5px;
+        }
+        .no-results {
+            text-align: center;
+            color: #666;
+            padding: 30px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .document-excerpt {
+            margin: 15px 0;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <a href="{% url 'upload_image' %}" class="nav-link">Upload Files</a>
+        </div>
+
+        <h1>Search Uploaded Files</h1>
+
+        <div class="messages">
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="message {{ message.tags }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+        <form method="get" action="{% url 'search_images' %}" class="search-form">
+            <input type="text" name="query" placeholder="Enter your search term" value="{{ query }}" class="search-input" maxlength="200">
+            <button type="submit" class="search-button">Search</button>
+        </form>
+
+        <div class="search-results">
+            {% if image_results %}
+                <h2>Image Results ({{ image_results|length }})</h2>
+                {% for image in image_results %}
+                    <div class="result">
+                        <div class="filename">{{ image.metadata.filename|default:"Unknown" }}</div>
+                        <div class="content-wrapper">
+                            {% if image.url %}
+                                <img src="{{ image.url }}" alt="Uploaded Image" class="result-image">
+                            {% endif %}
+                            <div class="result-details">
+                                <div class="metadata">
+                                    <div class="metadata-item">
+                                        <strong>Uploaded At:</strong> {{ image.metadata.uploaded_at|default:"N/A" }}
+                                    </div>
+                                    <div class="metadata-item">
+                                        <strong>Uploader:</strong> {{ image.metadata.uploader|default:"Anonymous" }}
+                                    </div>
+                                </div>
+                                <a href="{% url 'download_file' unique_file_id=image.metadata.unique_id file_type='image' %}" class="download-link">Download Image</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+            {% if document_results %}
+                <h2>Document Results ({{ document_results|length }})</h2>
+                {% for document in document_results %}
+                    <div class="result">
+                        <div class="filename">{{ document.metadata.filename|default:"Unknown" }}</div>
+                        <div class="content-wrapper">
+                            <div class="result-details">
+                                <div class="document-excerpt">
+                                    <strong>Document Excerpt:</strong>
+                                    <p>{{ document.text|truncatechars:300 }}</p>
+                                </div>
+                                <div class="metadata">
+                                    <div class="metadata-item">
+                                        <strong>Uploaded At:</strong> {{ document.metadata.uploaded_at|default:"N/A" }}
+                                    </div>
+                                    <div class="metadata-item">
+                                        <strong>Uploader:</strong> {{ document.metadata.uploader|default:"Anonymous" }}
+                                    </div>
+                                </div>
+                                <a href="{% url 'download_file' unique_file_id=document.metadata.unique_id file_type='document' %}" class="download-link">Download Document</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+            {% if not image_results and not document_results and query %}
+                <div class="no-results">
+                    <p>No results found for "{{ query }}". Please try a different search term.</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
