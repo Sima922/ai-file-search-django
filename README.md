@@ -75,56 +75,6 @@ Built to explore AI-powered search, vector databases, and document processing pi
 
 ---
 
-```
-USER UPLOADS A FILE
-        │
-        ▼
-┌─────────────────────┐
-│    Django View      │  ← upload_image()
-│    FileProcessor    │
-└────────┬────────────┘
-         │
-    ┌────┴─────┐
-    │          │
-    ▼          ▼
- Image      Document
-    │          │
-    │    ┌─────────────────────┐
-    │    │ EnhancedDocument    │
-    │    │ Processor           │
-    │    │  • Extract text     │
-    │    │  • Split into chunks│
-    │    │  • Generate metadata│
-    │    └─────────┬───────────┘
-    │              │
-    └──────┬───────┘
-           ▼
-┌──────────────────────────┐
-│  EnhancedMultimodal      │
-│  SearchEngine            │
-│  • Generate embeddings   │
-│  • Store in ChromaDB     │
-│  • Save metadata in DB   │
-└──────────────────────────┘
-
-USER TYPES A SEARCH QUERY
-        │
-        ▼
-┌─────────────────────────────┐
-│  Search Engine              │
-│  1. Expand query (synonyms) │
-│  2. Vector search ChromaDB  │
-│  3. Hybrid re-rank (BM25)   │
-│  4. Diversify results (MMR) │
-│  5. Remove duplicates       │
-└─────────────┬───────────────┘
-              ▼
-     Ranked Results Returned
-     (Images + Documents)
-```
-
----
-
 
 
 ## 📖 Usage
@@ -181,7 +131,7 @@ MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## 👋 About Me
 
-Hi, I'm **Simangaliso** — a developer interested in AI-powered applications and backend engineering.
+Hi, I'm **Simangaliso** a developer interested in AI-powered applications and backend engineering.
 
 
 - 📧 tbsmesh10@gmail.com
